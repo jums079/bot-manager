@@ -1,0 +1,8 @@
+.main-container {
+  display: flex;
+  height: 100px;
+  width: 30px;
+  margin: auto 0;
+  flex-direction: column;
+  background-color: black;
+}
