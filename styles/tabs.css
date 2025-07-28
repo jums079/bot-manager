@@ -3,7 +3,7 @@
   max-width: 1150px;
   margin: 50px auto;
   padding: 20px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .nav-tabs {
@@ -11,7 +11,7 @@
   height: 60px;
   width: 1000px;
   margin: 0 30px 32px;
-  background-color: #40444b;
+  background-color: rgb(54, 57, 63);
   gap: 20px;
   align-items: center;
   flex-direction: row;
@@ -27,8 +27,21 @@
   margin-left: 10px;
   cursor: pointer;
   gap: 10px;
-  border-radius: 5px;
+  color: white;
+  background-color: #5865f2;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
 }
 
-.buttons-sections .counter {
+.buttons-sections:hover {
+  color: #ffffff;
+  background-color: #5865f2d0;
+}
+
+.counter {
+  background-color: #40444B;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
 }
