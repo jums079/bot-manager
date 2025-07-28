@@ -1,8 +1,11 @@
 .header {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: #23272a;
   height: 100px;
   width: 100%;
+  /* position: fixed; */
+  
   border-bottom: 1px solid #40444b;
 }
 
