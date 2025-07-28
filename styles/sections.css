@@ -1,0 +1,28 @@
+* {
+  font-family: ui-sans-serif, system-ui;
+}
+
+.add-bar {
+  display: flex; /* flex */
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+  align-items: center;
+}
+
+.button-jogos {
+  font-size: 1rem;
+  font-family: ui-sans-serif, system-ui;
+  font-weight: 600;
+  width: 180px;
+  height: 40px;
+}
+.ico-mais {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: white;
+  font-family: ui-sans-serif, system-ui;
+}

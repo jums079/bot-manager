@@ -1,5 +1,10 @@
 @import url("header.css");
 @import url("tabs.css");
+@import url("sections.css");
+
+:root {
+  --text-default--: ui-sans-serif, system-ui;
+}
 
 body,
 html {
@@ -12,5 +17,6 @@ html {
 * {
   padding: 0;
   margin: 0;
-  font-family: ui-sans-serif, system-ui;
+  font-family: var(--text-default--);
+  box-sizing: border-box;
 }
