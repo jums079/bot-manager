@@ -3,12 +3,24 @@
 }
 
 .add-bar {
-  display: flex; /* flex */
-  justify-content: space-between;
   margin: 40px 0 0 0;
   align-items: center;
 }
 
+.jogos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filmes {
+  display: none;
+  justify-content: space-between;
+}
+
+.series {
+  display: none;
+  justify-content: space-between;
+}
 .button-jogos {
   font-size: 1rem;
   font-family: ui-sans-serif, system-ui;
