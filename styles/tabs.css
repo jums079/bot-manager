@@ -4,18 +4,18 @@
   max-width: 1900px;
   margin: 50px auto;
   padding: 20px;
-  
 }
 
 .nav-tabs {
   display: flex;
   height: 60px;
-  width: 1000px; 
+  width: 1000px;
   background-color: rgb(54, 57, 63);
-  gap: 20px; 
+  gap: 20px;
   align-items: center;
   border-radius: 7px;
-  padding: 0 10px; 
+  padding: 0 10px;
+  border: 1px solid #40444B;
 }
 
 .buttons-sections {
@@ -27,7 +27,7 @@
   cursor: pointer;
   gap: 10px;
   color: white;
-  background-color: #5865f2;
+  background-color: rgb(54, 57, 63);
   border: none;
   font-size: 20px;
   border-radius: 8px;
@@ -35,7 +35,7 @@
 
 .buttons-sections:hover {
   color: #ffffff;
-  background-color: #5865f2d0;
+  background-color: #b9bbbe0c;
 }
 
 .counter {
@@ -43,4 +43,8 @@
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
   border-radius: 9999px;
+}
+
+.btn-cor {
+  background-color: #5865f2;
 }

@@ -17,45 +17,116 @@
 
     <main class="main-container">
       <nav class="nav-tabs">
-        <button class="buttons-sections">
+        <button data-tab="jogos" class="buttons-sections buttons-tab active">
           Jogos
           <p class="counter">0</p>
         </button>
-        <button class="buttons-sections">
+        <button data-tab="filmes" class="buttons-sections buttons-tab">
           Filmes
           <p class="counter">0</p>
         </button>
-        <button class="buttons-sections">
+        <button data-tab="series" class="buttons-sections buttons-tab">
           Séries
           <p class="counter">0</p>
         </button>
       </nav>
 
       <div class="add-bar">
-        <div class="jogos">
+        <div id="jogos" class="jogos display">
           <h1>Jogos</h1>
-          <button class="buttons-sections button-jogos">
+          <button
+            id="btn-add-jogos"
+            data-form-id="add-jogos"
+            class="buttons-sections button-jogos btn-cor"
+          >
             <p class="ico-mais">+</p>
             Adicionar Jogo
           </button>
         </div>
 
-        <div class="filmes">
+        <div id="filmes" class="filmes display">
           <h1>Filmes</h1>
-          <button class="buttons-sections button-jogos">
+          <button
+            id="btn-add-filmes"
+            data-form-id="add-filmes"
+            class="buttons-sections button-jogos btn-cor"
+          >
             <p class="ico-mais">+</p>
             Adicionar Filme
           </button>
         </div>
 
-        <div class="series">
+        <div id="series" class="series display">
           <h1>Séries</h1>
-          <button class="buttons-sections button-jogos">
+          <button
+            id="btn-add-series"
+            data-form-id="add-series"
+            class="buttons-sections button-jogos btn-cor"
+          >
             <p class="ico-mais">+</p>
             Adicionar Série
           </button>
         </div>
       </div>
+
+      <div id="add-jogos" class="section-add">
+        <h3 class="titulo">Novo Jogo</h3>
+        <label class="titulo-label" for="titulo-jogo">Título</label>
+        <input
+          id="titulo-jogo"
+          class="titulo-input"
+          type="text"
+          placeholder="Digite o título..."
+        />
+
+        <label class="titulo-label" for="descricao-jogo">Descrição (opcional)</label>
+        <textarea
+          id="descricao-jogo"
+          maxlength="264"
+          class="titulo-input descricao-textarea"
+          placeholder="Digite a descrição..."
+        ></textarea>
+      </div>
+
+      <div id="add-filmes" class="section-add">
+        <h3 class="titulo">Novo Filme</h3>
+        <label class="titulo-label" for="titulo-filme">Título</label>
+        <input
+          id="titulo-filme"
+          class="titulo-input"
+          type="text"
+          placeholder="Digite o título..."
+        />
+
+        <label class="titulo-label" for="descricao-filme">Descrição (opcional)</label>
+        <textarea
+          id="descricao-filme"
+          maxlength="264"
+          class="titulo-input descricao-textarea"
+          placeholder="Digite a descrição..."
+        ></textarea>
+      </div>
+
+      <div id="add-series" class="section-add">
+        <h3 class="titulo">Nova Série</h3>
+        <label class="titulo-label" for="titulo-serie">Título</label>
+        <input
+          id="titulo-serie"
+          class="titulo-input"
+          type="text"
+          placeholder="Digite o título..."
+        />
+
+        <label class="titulo-label" for="descricao-serie">Descrição (opcional)</label>
+        <textarea
+          id="descricao-serie"
+          maxlength="264"
+          class="titulo-input descricao-textarea"
+          placeholder="Digite a descrição..."
+        ></textarea>
+      </div>
     </main>
+
+    <script src="scripts/elements.js"></script>
   </body>
 </html>
