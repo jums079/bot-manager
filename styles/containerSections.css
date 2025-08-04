@@ -44,5 +44,39 @@
 
 .descricao-textarea {
   max-height: 80px;
+  min-height: 80px;
   max-width: 940px;
+  min-width: 940px;
+}
+
+.container-botoes {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-salvar-jogos,
+.btn-salvar-filmes,
+.btn-salvar-series {
+  margin-left: 30px;
+  background-color: rgb(88, 101, 242);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 75px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-cancell-jogos,
+.btn-cancell-filmes,
+.btn-cancell-series {
+  cursor: pointer;
+  margin: 0;
+  height: 40px;
+  font-weight: 500;
+  width: 94px;
+  color: rgb(185, 187, 190);
+  background-color: rgb(64, 68, 75);
 }
